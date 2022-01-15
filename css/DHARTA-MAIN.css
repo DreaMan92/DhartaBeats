@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    padding: 1%;
+}
+
+.parrafo {
+    background-color: rgba(165, 42, 42, 0.068);
+    text-align: center;
+    width: 90%;
+    padding: 4%;
+    font-size: 1em;
+}
+
+.imagenes {
+    max-height: 1000px;
+    min-width: 87px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}

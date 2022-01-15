@@ -1,0 +1,29 @@
+main {
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    width: 90%;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    padding: 3%;
+    background-color: black;
+}
+
+main div h1 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h4 a {
+    text-decoration: none;
+    color: black;
+}
